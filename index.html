@@ -24,8 +24,43 @@
     </p>
 </header>
 
+<style>
+    .history {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        border: 1px solid #ddd;
+    }
+
+    .empty {
+        background: url("./pictures/empty.png") no-repeat 0 0;
+        background-size: cover;
+    }
+
+    .me {
+        background: url("./pictures/я.jpg") no-repeat 0 0;
+        background-size: cover;
+    }
+
+    .irina {
+        background: url("./pictures/czqsicsrw0q2.jpg") no-repeat 0 0;
+        background-size: cover;
+    }
+</style>
+
 <section class="slide" id="cover">
-    <h2 class="shout">Известия</h2>
+    <h2 class="shout">
+        Летучка
+    </h2>
+    <div>
+        Истории
+        <div>
+            <div class="history me"></div>
+            <div class="history irina"></div>
+            <div class="history empty"></div>
+        </div>
+    </div>
 </section>
 
 <section class="slide">
@@ -103,7 +138,7 @@
     To hide progress bar from entire presentation
     just remove “progress” element.
     -->
-<div class="progress"></div>
+<!--<div class="progress"></div>-->
 <script src="shower/shower.min.js"></script>
 <!-- Copyright © 2015 Yours Truly, Famous Inc. -->
 <!-- Photos by John Carey, fiftyfootshadows.net -->
