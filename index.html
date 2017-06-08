@@ -31,6 +31,7 @@
         height: 50px;
         display: inline-block;
         border: 1px solid #ddd;
+        box-shadow: 0 1px 3px -1px #000;
     }
 
     .empty {
@@ -49,11 +50,16 @@
     }
 </style>
 
-<section class="slide" id="cover">
+<section class="slide white" id="cover">
     <h2 class="shout">
         Летучка
     </h2>
-    <div>
+    <div style="
+    background: #efefef;
+    padding: 0 20px;
+    border-radius: 4px;
+    box-shadow: 0 0px 10px -3px #666 inset;
+    color: #666;">
         Истории
         <div>
             <div class="history me"></div>
@@ -63,7 +69,7 @@
     </div>
 </section>
 
-<section class="slide">
+<section class="slide white">
     <h2>Анонсировали Storybook 3</h2>
     <ul>
         <li>webpack 2</li>
@@ -74,7 +80,7 @@
     <a target="_blank" href="https://medium.com/storybookjs/announcing-storybook-3-0-329748b8f4cd">Читать</a>
 </section>
 
-<section class="slide">
+<section class="slide white">
     <h2>Prettier 1.4.0</h2>
     <ul>
         <li>typescript</li>
@@ -84,23 +90,27 @@
     <a target="_blank" href="https://github.com/prettier/prettier/releases/tag/1.4.0">Читать</a>
 </section>
 
-<section class="slide">
+<section class="slide white">
     <h2>Node v8</h2>
     <ul>
         <li>npm 5</li>
-        <li>TurboFan + Ignition</li>
+        <li>TurboFan + Ignition 🚀</li>
     </ul>
     <a target="_blank" href="https://nodejs.org/en/blog/release/v8.0.0/">Читать</a>
 </section>
 
-<section class="slide">
+<section class="slide white">
     <h2>ORY</h2>
-    <p>Next-gen, highly customizable content editor for the browser - based on React and Redux. WYSIWYG on steroids.
-        http://editor.ory.am</p>
+    <ul>
+        <li>Реализован на React + Redux</li>
+        <li>В state хранится JSON</li>
+        <li>Работает в мобилках</li>
+        <li>Пре-релиз, обратную совместимость не гарантируют</li>
+    </ul>
     <a target="_blank" href="https://github.com/ory/editor">Читать</a>
 </section>
 
-<section class="slide">
+<section class="slide white">
     <h2>Image Capture API</h2>
     <pre>
         <code>navigator.mediaDevices.getUserMedia({video: true})</code>
@@ -112,7 +122,7 @@
     <a target="_blank" href="https://developers.google.com/web/updates/2016/12/imagecapture">Читать</a>
 </section>
 
-<section class="slide">
+<section class="slide white">
     <h2>Ссылки</h2>
     <ul>
         <li><a target="_blank" href="https://developers.google.com/web/updates/2017/05/nic59">New in Chrome 59</a></li>
@@ -124,7 +134,7 @@
     </ul>
 </section>
 
-<section class="slide">
+<section class="slide white">
     <h2 class="">Авторы</h2>
     <div>
         Ирина Митрофанова
